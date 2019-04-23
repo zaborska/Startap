@@ -6,14 +6,13 @@
 
 .header-image{
   background-image: url(../img/header-bg-image.jpg);
-  /* background-size: cover; */
-  height: 770px;
   background-size: cover;
-
+}
+header {
+  height: 770px;
 }
 .navbar-flex{
   display: flex;
-  margin-top:-725px;
 }
 .logo-name{
   flex:1;
