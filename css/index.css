@@ -1,0 +1,40 @@
+/* .container,.container-fluid {
+  border:1px solid;
+}
+.container * {
+  border:1px solid; */
+
+.header-image{
+  background-image: url(../img/header-bg-image.jpg);
+  /* background-size: cover; */
+  height: 770px;
+  background-size: cover;
+
+}
+.navbar-flex{
+  display: flex;
+  margin-top:-725px;
+}
+.logo-name{
+  flex:1;
+  color:white;
+  font-size: 24px;
+}
+.navbar-info{
+  flex:1;
+}
+.navbar-info ul{
+  list-style-type: none;
+  
+}
+.navbar-info li{
+display: inline;
+padding: 10px;
+}
+.navbar-info a{
+ text-decoration: none; 
+ color:white;
+}
+.navbar-info a:hover{
+  color: lightgray;
+}
