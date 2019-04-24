@@ -18,10 +18,11 @@ header {
   flex:1;
   color:white;
   font-size: 36px;
-  margin-top:-15px;
+  margin-top:25px;
 }
 .navbar-info{
   flex:1;
+  padding-top: 45px;
 }
 .navbar-info ul{
   list-style-type: none;
@@ -58,7 +59,8 @@ padding: 10px;
   color:#ffffff;
   border-color:white;
   padding: 5px 20px;
-  margin-left: 210px;
+  margin-left:210px; 
+
 }
 .title button a{
   text-decoration: none;
@@ -66,4 +68,158 @@ padding: 10px;
 }
 .title button a:hover{
   color:rgb(168, 25, 25);
+}
+.row{
+  margin-top:70px;
+}
+
+
+.icon-one{
+  border:1px solid rgb(209, 199, 199);
+  background:white;);
+  color: rgb(168, 25, 25);
+  width: 70px; 
+  height: 70px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  margin:auto;
+} 
+.icon-one:hover{
+  background: rgb(168, 25, 25);
+  color:white;
+}
+
+
+.icon-two{
+  border:1px solid rgb(209, 199, 199);
+  width: 70px; 
+  height: 70px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  margin:auto;
+
+}
+.icon-two:hover{
+ background: rgb(168, 25, 25);
+  color:white;
+}
+
+ .icon-three{
+  border:1px solid rgb(209, 199, 199);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  margin:auto;
+ }
+ .icon-three:hover{
+  background: rgb(168, 25, 25);
+  color:white;
+ }
+  .icon-font-1{
+ position: relative;
+ font-size: 40px;
+ margin-left:15px;
+ margin-top:14px;
+}
+
+.icon-font-2{
+  color:  rgb(199, 30, 30);
+  position: relative;
+ font-size: 40px;
+ margin-left:15px;
+ margin-top:14px;
+}
+
+.icon-font-3{
+  color: rgb(199, 30, 30);
+   position: relative;
+ font-size: 40px;
+ margin-left:15px;
+ margin-top:14px;
+}
+.services h2{
+  text-align: center;
+}
+.services .services-p{
+   text-align: center;
+   margin-top: 40px;
+}
+.services p h6{
+  margin-top: -20px;
+}
+.services{
+  margin-top: 70px;
+ 
+}
+.services h6{
+  text-align: center;
+  margin-top: 80px;
+
+}
+.about-us-background{
+  text-align: center;
+  background-color:#f8f8f8;
+  margin-top: 70px;
+}
+.about-us-photo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 30px;
+}
+.about-us-photo div{
+  height:300px;
+}
+.latest-works{
+  margin-top: 70px;
+}
+.latest-works h3{
+  text-align: center;
+}
+.latest-works ul{
+  list-style-type: none;
+  text-align: center;
+}
+.latest-works li{
+  display:inline;
+}
+.latest-works a{
+  color:black;
+}
+.latest-works a:hover{
+  color:rgb(221, 17, 17);
+}
+.image-latest-works{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px;
+  margin-top: 40px;
+}
+.image-get-in-touch{
+  background-image: url(../img/contact-bg-image.jpg);
+  height:220px;
+  background-size: cover;
+  margin-top:40px;
+}
+.image-get-in-touch h4{
+  text-align: center;
+  color:white;
+  /* padding-top: 30px; */
+  
+
+}
+.image-get-in-touch button{
+  background: transparent;
+  color:#ffffff;
+  border-color:white;
+  padding: 5px 20px;
+  margin-left:620px; 
+  margin-top: 50px;
 }
