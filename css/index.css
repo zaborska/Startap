@@ -40,8 +40,9 @@ padding: 10px;
   color: lightgray;
 }
 .title{
+  text-align: center;
   margin-top: 220px;
-  margin-left:300px;
+ 
 }
 .title h1{
   font-size: 50px;
@@ -50,8 +51,7 @@ padding: 10px;
 .title h3{
   font-size: 20px;
   color:#ffffff;
-  margin-left:80px;
-  padding-top:10px; 
+  padding-top:10px;
   padding-bottom: 35px;
 }
  .title button{
@@ -59,7 +59,8 @@ padding: 10px;
   color:#ffffff;
   border-color:white;
   padding: 5px 20px;
-  margin-left:210px; 
+  text-align: center;
+  /* margin-left:210px;  */
 
 }
 .title button a{
@@ -211,6 +212,7 @@ padding: 10px;
 .image-get-in-touch h4{
   text-align: center;
   color:white;
+  padding-top:20px;
   /* padding-top: 30px; */
   
 
@@ -220,6 +222,6 @@ padding: 10px;
   color:#ffffff;
   border-color:white;
   padding: 5px 20px;
-  margin-left:620px; 
+  margin-left:620px;
   margin-top: 50px;
 }
